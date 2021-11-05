@@ -78,6 +78,7 @@ const uint8_t MAX_PCF8574 = 4;              // Max number of PCF8574 devices
 const uint8_t MAX_RULE_SETS = 3;            // Max number of rule sets of size 512 characters
 const uint16_t MAX_RULE_SIZE = 512;         // Max number of characters in rules
 const uint16_t VL53L0X_MAX_SENSORS = 8;     // Max number of VL53L0X sensors
+const uint8_t MAX_SR04 = 2;                 // Max number of SR04 sensors
 
 #ifdef ESP32
 const uint8_t MAX_I2C = 2;                  // Max number of I2C controllers (ESP32 = 2)
